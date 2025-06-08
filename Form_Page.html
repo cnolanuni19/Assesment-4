@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Callum Nolan showcasing web development skills, experience, and projects.">
+    <title>Callum Nolan | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+
+    <canvas id="matrix"></canvas>
+    
+    <div id="headerContainer"></div>
+
+    <main>
+    <section class="Welcome_banner">
+      <div class="box-container">
+        <div class="inner-box">
+          <h2>Sign Up for our news letter</h2>
+        </div>
+      </div>
+    </section>
+
+<form action="https://fabform.io/f/LbgijN8" method="post" id="contactForm">
+
+  <label for="firstName">First Name: <span style="color: red;">*</span></label><br>
+  <input type="text" id="firstName" name="firstName" maxlength="60" size="60" required><br><br>
+
+  <label for="lastName">Last Name: <span style="color: red;">*</span></label><br>
+  <input type="text" id="lastName" name="lastName" maxlength="60" size="60" required><br><br>
+
+  <label for="email">Email Address: <span style="color: red;">*</span></label><br>
+  <input type="email" id="email" name="email" maxlength="60" size="60" required><br><br>
+
+  <fieldset style="border: 2px solid #444; padding: 15px; border-radius: 8px; background-color: #1e1e1e; margin-bottom: 20px; color: #f0f0f0;">
+    <legend style="font-weight: bold; font-size: 18px; padding: 0 10px; color: #fff;">Age Range: <span style="color: red;">*</span></legend>
+    
+    <label style="display: block; margin: 8px 0;">
+      <input type="radio" id="age1" name="ageRange" value="15-25" required> 15-25
+    </label>
+    
+    <label style="display: block; margin: 8px 0;">
+      <input type="radio" id="age2" name="ageRange" value="26-35"> 26-35
+    </label>
+    
+    <label style="display: block; margin: 8px 0;">
+      <input type="radio" id="age3" name="ageRange" value="36-45"> 36-45
+    </label>
+    
+    <label style="display: block; margin: 8px 0;">
+      <input type="radio" id="age4" name="ageRange" value="46-55"> 46-55
+    </label>
+    
+    <label style="display: block; margin: 8px 0;">
+      <input type="radio" id="age5" name="ageRange" value="55+"> 55+
+    </label>
+  </fieldset>
+
+  <fieldset style="border: 2px solid #444; padding: 15px; border-radius: 8px; background-color: #1e1e1e; margin-bottom: 20px; color: #f0f0f0;">
+    <legend style="font-weight: bold; font-size: 18px; padding: 0 10px; color: #fff;">Areas of Operation: <span style="color: red;">*</span></legend>
+    
+    <label style="display: block; margin: 8px 0;">
+      <input type="checkbox" id="service1" name="services" value="Research & Development"> Research & Development
+    </label>
+    
+    <label style="display: block; margin: 8px 0;">
+      <input type="checkbox" id="service2" name="services" value="Product Design"> Product Design
+    </label>
+    
+    <label style="display: block; margin: 8px 0;">
+      <input type="checkbox" id="service3" name="services" value="Consulting Services"> Consulting Services
+    </label>
+    
+    <label style="display: block; margin: 8px 0;">
+      <input type="checkbox" id="service4" name="services" value="Customer Support"> Customer Support
+    </label>
+    
+    <label style="display: block; margin: 8px 0;">
+      <input type="checkbox" id="service5" name="services" value="Training & Workshops"> Training & Workshops
+    </label>
+  </fieldset>
+
+  <label for="comments">Additional Comments:</label><br>
+  <textarea id="comments" name="comments" cols="60" rows="3"></textarea><br><br>
+
+  <input type="submit" value="Submit" 
+    style="background-color: #4CAF50; color: white; border: none; padding: 12px 24px; border-radius: 6px; cursor: pointer; font-size: 16px; margin-right: 10px;"
+    onmouseover="this.style.backgroundColor='#45a049'" 
+    onmouseout="this.style.backgroundColor='#4CAF50'">
+
+  <input type="reset" value="Reset" 
+    style="background-color: #f44336; color: white; border: none; padding: 12px 24px; border-radius: 6px; cursor: pointer; font-size: 16px;"
+    onmouseover="this.style.backgroundColor='#e53935'" 
+    onmouseout="this.style.backgroundColor='#f44336'">
+
+</form>
+
+</main>
+
+    
+
+       <footer id="pageFooter"></footer>
+
+
+    <script src="javascript.js"></script>
+    
+
+</body>
+</html>
